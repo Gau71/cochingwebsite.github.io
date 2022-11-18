@@ -61,9 +61,8 @@
                 margin: 0;
                 padding: 0;
             }
-            body{
-                height: 250vh;
-            }
+        
+    
              .header{
                  background-size: cover;
                  height: 2810px;
@@ -200,7 +199,7 @@
         }  
         header {
             margin: 0;
-            height: 180vh;
+            height: 188vh;
             background-image: url('bc.jpg');
             background-repeat: no-repeat;
             background-size: cover;
