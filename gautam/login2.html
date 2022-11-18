@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login2.css">
+    <link rel="stylesheet" href="signup2.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="content">
+            <header>Login</header>
+            <form  action="" >
+                <div class="field">
+                    <span class='fas fa-user-alt'></span>
+                    <input type="text" required placeholder="User Name",>
+
+                </div>
+
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input type="password" class="password" required placeholder="Password" >
+                    <span class="show">SHOW</span>
+                </div>
+                <div class="pass">
+                    <a href="">Forgot Password?</a>
+                </div>
+
+                <div class="field">
+                    <input type="submit" value="LOGIN" >
+            
+
+                </div>
+                <div class="login">Or login with</div>
+                <div class="link">
+                    <div class="facebook">
+                        <i class="fab fa-facebook-f"><span>facebook</span></i>
+                    </div>
+                    <div class="instagram">
+                        <i class="fab fa-instagram"><span>instagram</span></i>
+                    </div>
+                    <div class="google">
+                        <i class="fab fa-google"><span>google</span></i>
+                    </div>
+                </div>
+                <div class="signup">Don't have account?
+                    <a href="signup.html">Signup Now</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+function validate(){
+    var text=document.getElementById("text").value;
+    var password=document.getElementById("password").value;
+    if(text=="sahu" && password=="123456"){
+        
+      window.open("coching,html");
+        alert("login succesfull");
+        return false;
+    }
+else{
+    alert("login failed");
+}
+}
+
+const pass_field =document.querySelector('.password');
+        const show_btn =document.querySelector('.show');
+        show_btn.addEventListener('click',function(){
+            if(pass_field.type==="password"){
+                pass_field.type="text";
+                pass_field.style.color ="#3498db";
+                show_btn.textContent ="HIDE"
+            }
+            else{
+                pass_field.type ="password";
+                pass_field.style.color="#222";
+                show_btn.textContent ="SHOW";
+            }
+        });
+
+
+        
+      
+    
+
+
+    </script>
+</body>
+
+</html>
