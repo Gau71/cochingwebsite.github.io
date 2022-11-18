@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="signup2.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   
+    </style>
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="content1">
+            <header>Form</header>
+            <form action="mailto:gautamsahu4511@gmail.com">  
+            <div class="field">
+                <span class='fas fa-user-alt'></span>
+                <input type="text" required placeholder="Your Name" >
+
+            </div>
+            <div class="field ss">
+                <span class='fas fa-user-alt'></span>
+                <input type="email" required placeholder=" Your Email id">
+
+            </div>
+            <div class="field ss">
+                <span class='fas fa-mobile'></span>
+                <input type="tel" required placeholder=" Your Contact number" pattern="[0-9]{10}">
+
+            </div>
+          
+            <div class="field space">
+                <span class="fa fa-user-alt"></span>
+                <input type="text" class="father"  required placeholder="Father name">
+                
+            </div>
+
+            <div class="field space">
+                <span class="fa fa-date"></span>
+                <input type="Date" class="date"  required placeholder="Date">
+               
+            </div>
+            <div class="cou">
+                <label for="course"><div class="course"required >Your Course</div></label>
+                <select name="cource" id ="course" >Select Your course
+                    <option value="B.Tech"><--Course--></option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="BA">BA</option>
+                    <option value="BSC">BSC</option>
+                    <option value="B.COM">B.COM</option>
+                    <option value="BCA">BCA</option>
+                </select>
+                 
+        
+                
+                <select name="cource" id ="course">Select Your course
+                    <option value="B.Tech"><--Branch--></option>
+                    <option value="B.Tech">CSE</option>
+                    <option value="B.Tech">IT</option>
+                    <option value="B.Tech">EC</option>
+                    <option value="B.Tech">CE</option>
+                    <option value="B.Tech">ME</option>
+                </select>
+                 
+             </div> 
+             <div class="ge"><div class="course" required >Gender</div>
+           <label for="male">
+                  <input class="male" type="radio" value="male" name="gender" id="male">male
+              </label>
+            <label for="female">
+                <input class="femal" type="radio" value="female" name="gender" id="female">female
+            </label>
+
+            </div>
+
+            <div class="field space">
+                <span class="fa fa-college"></span>
+                <input type="text" class="college name"  required placeholder="College name">
+                
+            </div>
+            <div class="field space">
+                <span class="fa fa-address"></span>
+                <input type="address" class="address"  required placeholder="Address">
+                
+            </div>
+
+            <div class="field space">
+                <span class="fa fa-discripation"></span>
+                <input type="discriation" class="discripation"  required placeholder="Descripation">
+                
+            </div>
+
+
+            <div class="pass">
+                <a href="">Reset?</a>
+            </div>
+
+
+            <div class="field">
+
+                <input type="submit" value="Sumbit">
+
+            </div>
+            </form>
+        </div>
+        </div>
+    <script>
+       
+    let Submit = document.querySelector('Submit');
+    Submit.addEventListener('action',showMsg);
+    function showMsg(){
+        alert("Thank you Your form is submiited succefully");
+    };
+
+        
+    </script>
+</body>
+
+</html>

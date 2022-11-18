@@ -1,0 +1,237 @@
+@media screen and (max-width:320px){
+   *{
+       margin: 0;
+       padding: 0;
+   }
+   .bg-img{
+    background: url('uT9WKm.jpg');
+    height: 180vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.content{
+    height: 600px;
+    width: 300px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 12px;
+    background: rgba(255,255,255,0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0,75);
+}
+.content header{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 35px 0 ;
+}
+
+
+.b-image::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: chocolate;
+}
+
+.field{
+position: relative;
+height: 45px;
+width: 100%;
+display: flex;
+background: rgba(255,255,255,0.94);
+border-radius:5px;
+}
+.field input {
+height: 100%;
+width: 100%;
+background: transparent;
+border: none;
+outline: none;
+color:#222;
+font-size: 16px;
+font-family: 'poppins',sans-serif;
+
+
+}
+.space{
+    margin-top: 16px;
+
+}.field span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+.pass{
+    text-align: left ;
+    margin: 10px 0;
+    
+
+}
+.pass a{
+    color: white;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+}
+.pass:hover a{
+    text-decoration: underline;
+}
+
+
+input[type="submit"]{
+    background: #3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    color: #3498db; 
+    border-radius: 4px;
+}
+.login{
+    color: white;
+    margin: 20px 0;
+}
+.link{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 5px 5px; ;
+}
+.facebook, .instagram, .google{
+    width: 50%;
+    height: 42px;
+    line-height: 45px;
+    margin-top: 50px;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+.facebook{
+    background: #4267B2;
+    border: 1px solid #3e61a8;
+}
+.instagram{
+    background: #E1306c;
+    border: 1px solid #df2060;
+}
+.google{
+    background: #4285f4;
+    border: 1px solid #4267B2;
+}
+
+.link{
+    font-size: 17px;
+}
+.link span{
+    font-size: 19px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+.signup{
+    color: white;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+
+}
+.signup a:hover{
+    text-decoration: underline;
+    color: #3498db; 
+}
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color:#222;
+    display:none;
+
+}
+.password:valid ~ .show{
+    display: block;
+} 
+ .content1 {
+    height: 750px;
+    width: 300px;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 12px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0, 75);
+}
+
+.content1 header {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+}
+
+.ss {
+    margin-top: 16px;
+}
+.course{
+    margin: 0 10px 0 0;
+    font-size: 600;
+
+}  .ge{
+    margin: 0px 20px 0 0px;
+    padding: 0 10px;
+    position: relative;
+    height: 45px;
+    width: 276px;
+    display: flex;
+    background: rgba(255,255,255,0.94);
+    border-radius:5px;
+    align-items: center;
+    /* justify-content: center; */
+     display: inline-flex; 
+    color: #222;
+  
+    }
+    .gender{
+        margin-left: 5px;
+    }
+    .femal{
+        margin: 0 5px;
+    }
+    .cou{
+        margin: 17px 0;
+        padding: 0 5px;
+        position: relative;
+        height: 45px;
+        width: 276px;
+        display: flex;
+        background: rgba(255,255,255,0.94);
+        border-radius:5px;
+        align-items: center;
+        /* justify-content: center; */
+         display: inline-flex; 
+        color: #222;
+      
+        }
+}
