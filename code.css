@@ -257,8 +257,8 @@ nav .fa{
     }
      .header1{
          background-size: cover;
-         height: 2910px;
-         width: 320px;
+         height: 2940px;
+         width: 380px;
          overflow: hidden;
      }
      
@@ -266,7 +266,7 @@ nav .fa{
  
      .box3{
          height: 200px;
-         width: 200px;
+         width: 260px;
          justify-content: center;
          margin: 10px 50px;
          padding: 2px 2px;
@@ -278,19 +278,19 @@ nav .fa{
          font-size: 20px;
          padding: 0 50px;
      }
-     .box1{ margin: 50px 0 0 8px;
+     .box1{ margin: 50px 10px 10px 8px;
          justify-content: center;
          /* height: 200px; */
          /* width: 200px; */
      }
-     .box2{margin: 10px 0 0 8px;
+     .box2{margin: 10px 10px 10px 8px;
          justify-content: center;
          /* height: 200px; */
          /* width: 200px; */
      }
      .course{
          /* justify-content: center; */
-         margin: 30px 0;
+         margin: 30px 20px;
          flex-direction: row;
          flex-wrap: wrap;
      overflow: hidden;
@@ -319,7 +319,7 @@ nav .fa{
          align-items: center;
          margin-bottom: 50px;
         height: 235px;
-        width: 316px;
+        width: 356px;
         display: block; 
         z-index: 3;
     }
@@ -359,10 +359,10 @@ nav .fa{
      display: block;
      position: absolute;
      background: black;
-     height: 50vh;
-     width: 150px;
+     height: 40vh;
+     width: 170px;
      top: 0;
-     right: -151px;
+     right: -191px;
      text-align: center;
      transition: 1s;
      border-radius: 10px;
