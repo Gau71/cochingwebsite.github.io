@@ -236,6 +236,7 @@ header {
      color: white;
      /* font-family: cursive; */
      padding: 2px 0px 0px 60px ;
+     
  
  
  }   .gau {
@@ -316,5 +317,8 @@ header {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
+}
+body{
+    overflow-x:hidden ;
 }
 }

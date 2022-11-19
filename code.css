@@ -255,6 +255,9 @@ nav .fa{
         margin: 0;
         padding: 0;
     }
+   body{
+    overflow-x: hidden;
+   }
      .header1{
          background-size: cover;
          height: 2940px;

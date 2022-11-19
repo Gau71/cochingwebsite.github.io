@@ -154,11 +154,6 @@ position: relative;
         background-image: url("sss.jpeg");
     }
 
-} animation: imgg 4s 2s infinite reverse forwards;.nav-links ul li:hover::after {
-    width: 100%;
-}  content: '';
-height: 2px;
-width: 0;
-background: black;
-display: block;
-transition: 0.5s;
+} 
+
+
