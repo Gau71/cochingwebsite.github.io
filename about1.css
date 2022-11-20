@@ -65,7 +65,7 @@
     
              .header{
                  background-size: cover;
-                 height: 2810px;
+                 height: 2850px;
                  width: 320px;
                  overflow: hidden;
              }
@@ -95,8 +95,8 @@
              .course{
                  /* justify-content: center; */
                  margin: 30px 0;
-                 flex-direction: row;
-                 flex-wrap: wrap;
+                 display: wrap;
+                 
              overflow: hidden;
              /* height: 150px; */
              /* width: 200px; */
@@ -117,9 +117,9 @@
              height: 235px;
              width: 356px;
              justify-content: center;
-             flex-direction: column;
+             /*flex-direction: column;*/
              /* display: inline-flex; */
-             
+             display: wrap;
              border-radius: 2px;
          position: relative;
          }
@@ -183,7 +183,7 @@
             padding: 10px;
             background: rgba(255, 255, 255, 0.04);
             color: #fdeef4;
-            display: inline-flex;
+            display: wrao;
             border-radius: 10px;
             /* font-family: sans-serif; */
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -193,13 +193,13 @@
             padding: 10px;
             background: rgba(255, 255, 255, 0.04);
             color: whitesmoke;
-            display: inline-flex;
+            display: wrap;
             border-radius: 10px;
             font-family: sans-serif;
         }  
         header {
             margin: 0;
-            height: 188vh;
+            height: 190vh;
             background-image: url('bc.jpg');
             background-repeat: no-repeat;
             background-size: cover;

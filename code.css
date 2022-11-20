@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .header1{
     margin: 0;
     height: 212vh;
@@ -254,15 +255,15 @@ nav .fa{
     *{
         margin: 0;
         padding: 0;
+        
     }
-   body{
-    overflow-x: hidden;
-   }
+   
      .header1{
          background-size: cover;
          height: 2940px;
-         width: 380px;
+         width: 360px;
          overflow: hidden;
+         display: block
      }
      
  
@@ -275,6 +276,8 @@ nav .fa{
          padding: 2px 2px;
          font-size: 8px;
          align-items: center;
+         display: block;
+       
      }
      
      .assig{
@@ -285,11 +288,16 @@ nav .fa{
          justify-content: center;
          /* height: 200px; */
          /* width: 200px; */
+    
+    
+
      }
      .box2{margin: 10px 10px 10px 8px;
          justify-content: center;
          /* height: 200px; */
          /* width: 200px; */
+         display: block;
+       
      }
      .course{
          /* justify-content: center; */
@@ -299,11 +307,15 @@ nav .fa{
      overflow: hidden;
      /* height: 150px; */
      /* width: 200px; */
+
+     display: wrap;
+    
      
      }
      .box5{
          margin: 10px 8px;
          padding: 0 5px;
+        
      }
      .box4{
          margin: 0 8px;
@@ -316,6 +328,7 @@ nav .fa{
      }
      nav{
          margin-bottom: 200px;
+         display:wrap;
      }
      nav ul{
          position: absolute;
@@ -346,6 +359,7 @@ nav .fa{
      display: flex;
      align-items: center;
      height: 121px;
+     width: 358px;
      background-color: black;
      border: 2px solid blueviolet;
      border-radius: 5px;
