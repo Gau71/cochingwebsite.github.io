@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+
+        <div class="mySlides fade">
+            <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Flagship_100_Blog_2880x1800_Apparel.jpg"
+                width="1000px" height="500px" alt="Image">
+            <div class="text">Save Time With <br>Money !!</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej.png"
+                width="1000px" height="500px" alt="Image">
+            <!-- <div class="text">Caption Two</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://www.gannett-cdn.com/presto/2021/10/16/USAT/a33bf9ac-d8e6-4a7e-8ade-a2e52cf4c2c8-Holidays.png"
+                width="1000px" height="500px" alt="SLide Image">
+            <div class="text"> Hurrah!!! <br>Buy In Less </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+
+    </script>
+</body>
+
+</html>
