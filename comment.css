@@ -214,9 +214,7 @@ header {
 }
    
 @media screen and (max-width:700px) {
-    html{
-        height: 1400;
-    }
+   
 
 body {
     font-family: Arial, sans-serif;
