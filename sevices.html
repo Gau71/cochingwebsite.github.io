@@ -1,98 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Car Price Prediction Services</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <style>
-        /* Custom styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        
-        header{
-            border: 3px solid black;
-                    }
-                  
-        .term {
-            text-align: center;
-            font-size: 21px;
-            color: black;
-        }
-        main {
-    
-            height: 456px;
-            margin: 0 auto;
-            padding: 16px;
-    
-            
-        }
-        
-        .name {
-            margin: 800px 0px 36px 0px;
-            color: #777;
-            font-family: sans-serif;
-        }
-        h1 {
-            text-align: center;
-            font-weight: normal;
-            margin: 24px 0px;
-        }
-        .copy{
-            margin: 16px 0px  4px 0px;
-            background-color: black;
-            color: white;
-           }
-        
-        section {
-    
-            height: 320px;
-            width: 520px;
-            background-color: white;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-            border-radius: 24px;
-            margin: 16px 24px;
-            color: black;
-            font-size: 16px;
-            padding: 8px 8px 32px 8px;
-            text-align: center;
-    
-        }
-        section:hover{
-            color: white;
-            background-color: black;
-            height: 328px;
-            
-            box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+    <link rel="stylesheet" type="text/css" href="service.css">
 
-        }
-        #section1 {
-    
-            height: 320px;
-            width: 440px;
-            background-color: white;
-           
-            border-radius: 0px;
-            margin: 16px 80px;
-            color: black;
-            font-size: 17px;
-            padding: 24px 16px 24px 40px;
-        }
-        .im{
-            display: flex;
-        }
-        p {
-            margin: 16px 24px;
-                font-size: 19px;
-                line-height: 1.5;
-            }
-
-    </style>
 </head>
+
 <body>
     <header>
         <li>
@@ -100,72 +17,95 @@
                 <hr>
                 </h3>
         </li>
-        <li>
-            <ul>
-                <a href="index.html">Home</a>
-            </ul>
-            <ul>
-                <a href="ab.html">About</a>
-            </ul>
-            <ul>
-                <a href="contact.html">Contact</a>
-            </ul>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" id="hid"></i>
+            <li>
+                <ul>
+                    <a href="index.html">Home</a>
+                </ul>
+                <ul>
+                    <a href="ab.html">About</a>
+                </ul>
+                <ul>
+                    <a href="contact.html">Contact</a>
+                </ul>
 
-            <ul>
-                <a href="sevices.html">Services</a>
-            </ul>
-            <ul>
-                <a href="comment.html">Blogs</a>
-            </ul>
+                <ul>
+                    <a href="sevices.html">Services</a>
+                </ul>
+                <ul>
+                    <a href="comment.html">Blogs</a>
+                </ul>
 
 
-        </li>
+            </li>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" id="sho"></i>
     </header>
-
     <main>
         <div class="im">
-        <div id="section1">
-            <img src="k.jpg" alt="" width="400px" height="310px" id="hg">
-        </div>
+            <div id="section1">
+                <img src="k.jpg" alt="" width="400px" height="310px" id="hg">
+            </div>
 
-        <section>
-            <h1>Data Collection and Analysis Services</h1>
-            <p>Our team of experts collects and analyzes data from various sources to provide accurate predictions of car prices. We use advanced algorithms to analyze historical data, current market trends, and other factors that affect car prices. This enables us to deliver the most reliable car price predictions to our clients.</p>
-        </section>
+            <section>
+                <h1>Data Collection and Analysis Services</h1>
+                <p>Our team of experts collects and analyzes data from various sources to provide accurate predictions
+                    of car prices. We use advanced algorithms to analyze historical data, current market trends, and
+                    other factors that affect car prices. This enables us to deliver the most reliable car price
+                    predictions to our clients.</p>
+            </section>
         </div>
         <div class="im">
-       
+
             <section>
                 <h1>Custom Car Price Prediction Models</h1>
-                <p>We offer custom car price prediction models tailored to meet the unique needs of our clients. Our models are designed to cater to dealers, lenders, and individuals who are looking to buy or sell a car. Whether you're looking for a quick estimate or a detailed analysis of car prices, our custom models can provide you with the insights you need to make informed decisions.</p>
+                <p>We offer custom car price prediction models tailored to meet the unique needs of our clients. Our
+                    models are designed to cater to dealers, lenders, and individuals who are looking to buy or sell a
+                    car. Whether you're looking for a quick estimate or a detailed analysis of car prices, our custom
+                    models can provide you with the insights you need to make informed decisions.</p>
             </section>
             <div id="section1">
-            <img src="s.png" alt="" width="400px" height="310px" id="hg">
+                <img src="s.png" alt="" width="400px" height="310px" id="hg">
             </div>
-       
+
         </div>
         <div class="im">
-        <div  id="section1">
-            <img src="n.png" alt="" width="400px" height="310px" id="hg">
+            <div id="section1">
+                <img src="n.png" alt="" width="400px" height="310px" id="hg">
+            </div>
+            <section>
+                <h1>Consulting and Support Services</h1>
+                <p>Our team of experts is available to provide consulting and support services to help
+                </p>
+            </section>
         </div>
-        <section>
-            <h1>Consulting and Support Services</h1>
-            <p>Our team of experts is available to provide consulting and support services to help
-</p>
-</section>
+    </main>
+    <footer>
+        <div class="name">
+            <h2>Car Price Predictor
+                <hr>
+            </h2>
         </div>
-</main>
-                <footer>
-                    <div class="name">
-                        <h2>Car Price Predictor
-                            <hr>
-                        </h2>
-                    </div>
-                    <div class="term">24x7 Support&ensp;&ensp;|&ensp;&ensp;Privacy Policy&ensp;&ensp;|&ensp;&ensp; Terms &
-                        Conditions</div>
-                    <div class="copy">
-            
-                        All rights reserved &copy;2023 Car Price Prediction
-            
-            
-                </footer>
+        <div class="term">24x7 Support&ensp;&ensp;|&ensp;&ensp;Privacy Policy&ensp;&ensp;|&ensp;&ensp; Terms &
+            Conditions</div>
+        <div class="copy">
+
+            All rights reserved &copy;2023 Car Price Prediction
+
+
+    </footer>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.left = "0";
+        }
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu() {
+            navLinks.style.left = "-200px";
+        }
+    </script>
+</body>
+
+</html>

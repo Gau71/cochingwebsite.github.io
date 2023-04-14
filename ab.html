@@ -4,97 +4,10 @@
 <head>
     <title>About Car Price Prediction</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script src='car.js'></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+    <link rel="stylesheet" type="text/css" href="ab.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   
 
-            color: #fff;
-        }
-
-        .name {
-            margin: 28px 0px;
-            color: #777;
-            font-family: sans-serif;
-        }
-
-        h2 {
-            color: black;
-        }
-
-        .term {
-            text-align: center;
-            font-size: 21px;
-            color: black;
-        }
-
-
-
-        main {
-
-            height: 546px;
-            margin: 0 auto;
-            padding: 16px;
-            display: flex;
-
-        }
-
-        section {
-
-            height: 456px;
-            width: 360px;
-            background-color: white;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-            border-radius: 24px;
-            margin: 16px 40px;
-            color: black;
-            
-        }
-
-        section:hover {
-            color: white;
-            background-color: black;
-            height: 472px;
-
-            box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
-
-        }
-
-
-        h1 {
-            font-size: 31px;
-            margin-bottom: 16px;
-            text-align: center;
-            margin: 48px 0px;
-
-        }
-
-        p {
-            margin: 16px 24px;
-            font-size: 19.5px;
-            line-height: 1.5;
-        }
-
-        #dp {
-            width: 1200px;
-            margin: 0px 40px;
-        }
-
-        header {
-            border: 3px solid black;
-        }
-
-        .copy {
-            margin: 16px 0px 4px 0px;
-            background-color: black;
-            color: white;
-        }
-           
-
-    </style>
 </head>
 
 <body>
@@ -126,6 +39,7 @@
 
 
         </li>
+        </div>
         <i class="fa fa-bars" onclick="showMenu()" id="sho"></i>
     </header>
     <main>
@@ -164,7 +78,17 @@
 
 
     </footer>
-
+    <script>
+     
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.left = "0";
+        }
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu() {
+            navLinks.style.left = "-200px";
+        }
+    </script>
 </body>
 
 </html>
