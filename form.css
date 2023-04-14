@@ -76,9 +76,6 @@ input[type="submit"]:hover {
     background-color: black;
     color: white;
 }
-body{
-    overflow: hidden;
-}
 * {
     margin: 0;
 }
@@ -210,9 +207,7 @@ height: 100vh;
 }
 
 @media screen and (max-width:700px) {
-htm{
-    height: 670px;
-}
+
     body{
         overflow: hidden;
         height: 610px;
